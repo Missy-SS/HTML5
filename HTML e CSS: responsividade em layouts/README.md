@@ -56,6 +56,18 @@ A div terá width de 12.5 REM, que é 12.5 vezes 16, resultando em 200 picels. P
 
 Caso mudemos de dispositivo, alteramos apenas o font-size do HTML. Se quisermos fontes maiores ajustamos o font-se do HTML para 18, e todas as outras medidas relativas escalarão automaticamente, sem precisar alterar cada elemento individualmente. 
 
+**VW** é relativo ao viewport, ou seja, ao espaço de tela visível do dispositivo. Usamos essas unidades quando precisamos de um banner em tela cheia, em slides ou em layouts hero, onde todo o conteúdo deve estar visível antes de rolar a página.
+
+* Um ponto de atenção é que pode haver rolagem extra em dispositivos móveis, especialmente ao abrir o teclado ou com a barra de navegação, mas isso é fácil de contornar.
+
+div {
+    width: 50vw;
+    height: 100vh;
+    display: inline-block;
+}
+
+
+
 
 
 
